@@ -10,4 +10,6 @@ app.get('/', (req, res) => {
     res.status(200).send("Ta funcionando");
 });
 
+require('./controllers/authController')(app);
+
 app.listen(porta);
