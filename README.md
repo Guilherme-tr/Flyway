@@ -5,6 +5,7 @@ Para testar as rotas, utilizei o insomnia, segue os endpoints utilizados:
 
 User: 
 http://localhost:8080/auth/register -> Cria um user
+
 http://localhost:8080/auth/authenticate -> Autentica um user
 
 Voos: 
