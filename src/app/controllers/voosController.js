@@ -19,7 +19,7 @@ router.get('/:vooId', async (req,res) => {
         const voos = await Voo.findById(req.params.vooId).populate('user');
         return res.send({voos})
     } catch (error) {
-        return res.status(400).send({error: 'Error to find voos'})
+        return res.status(400).send({error: 'Error to find the voo'})
     }
 })
 
